@@ -1,4 +1,4 @@
-weather_condition = input("what's the weather like toay?(sunny/rainy/cold): ")
+weather_condition = input("what's the weather like toay? (sunny/rainy/cold): ")
 sunny ="Wear a t-shirt and sunglasses."
 rainy ="Don't forget your umbrella and a raincoat."
 cold ="Make sure to wear a warm coat and a scarf."
