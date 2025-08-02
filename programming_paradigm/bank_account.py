@@ -19,4 +19,4 @@ class BankAccount:
         print(f"Current Balance: ${self.account_balance}")
 
 my_account =BankAccount(0)
-my_account.deposit(67)
+
