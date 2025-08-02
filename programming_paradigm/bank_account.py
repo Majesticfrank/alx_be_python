@@ -16,7 +16,7 @@ class BankAccount:
              print(f"Withdrew ${amount}. Current balance is ${self.account_balance}")
    
     def display_balance(self):
-        print(f"Current balance is ${self.account_balance}")
+        print(f"Current Balance: ${self.account_balance}")
 
 my_account =BankAccount()
 my_account.deposit(1000)
