@@ -23,8 +23,9 @@ class Library:
                 book.check_out()
             else:
                 return f"No book with the title {title} is available in the library."
-    def return_book(self, title):
-        for book in self.books:
+    def return_book(self):
+         title = input("Enter the title of the book to check out: ")
+         for book in self.books:
             if book.title == title:
                 book.__is_checked_out = False
             else:
