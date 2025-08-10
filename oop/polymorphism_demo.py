@@ -22,7 +22,4 @@ def main():
         Circle(7)
     ]
 
-    for shape in shapes:
-        print(f"The area of the {shape.__class__.__name__} is: {shape.area()}")
-
-main()
+    
