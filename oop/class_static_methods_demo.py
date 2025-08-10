@@ -11,7 +11,6 @@ class Calculator:
     
 
 sum_result =Calculator.add(10, 5)
-print(f"The sum is: {sum_result}")
+
 
 product_result = Calculator.multiply(4, 5) 
-print("Result:",product_result)  
